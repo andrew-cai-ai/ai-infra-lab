@@ -1,0 +1,472 @@
+{
+  "project": "AI Course Planning Assistant",
+  "student": {
+    "university": "York University",
+    "program": "Kinesiology and Health Science",
+    "targetMode": "balanced"
+  },
+  "recommendedPlan": "Balanced Plan",
+  "plans": [
+    {
+      "mode": "easy",
+      "title": "Easy Plan",
+      "courses": [
+        {
+          "code": "KINE 3000",
+          "title": "Psychology of Physical Activity and Health",
+          "credits": 3,
+          "section": "A",
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "start": "13:00",
+          "end": "14:30",
+          "professor": "Dr. Mina Kapoor",
+          "professorRating": 4.8,
+          "difficulty": 3,
+          "estimatedWorkloadHours": 7,
+          "workloadRisk": "medium",
+          "graduationRequirement": true,
+          "score": 117.9,
+          "scoreBreakdown": {
+            "graduation_progress": 45.0,
+            "professor_rating": 38.4,
+            "difficulty_fit": 24.0,
+            "workload_fit": 10.5
+          },
+          "reasons": [
+            "counts toward declared requirements",
+            "Dr. Mina Kapoor mock rating 4.8/5",
+            "low workload and lower difficulty"
+          ]
+        },
+        {
+          "code": "KINE 2049",
+          "title": "Research Methods in Kinesiology",
+          "credits": 3,
+          "section": "A",
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "start": "14:30",
+          "end": "16:00",
+          "professor": "Dr. Celeste Morgan",
+          "professorRating": 4.4,
+          "difficulty": 3,
+          "estimatedWorkloadHours": 8,
+          "workloadRisk": "medium",
+          "graduationRequirement": true,
+          "score": 113.2,
+          "scoreBreakdown": {
+            "graduation_progress": 45.0,
+            "professor_rating": 35.2,
+            "difficulty_fit": 24.0,
+            "workload_fit": 9.0
+          },
+          "reasons": [
+            "counts toward declared requirements",
+            "Dr. Celeste Morgan mock rating 4.4/5",
+            "low workload and lower difficulty"
+          ]
+        },
+        {
+          "code": "KINE 1900",
+          "title": "Integrated Physical Activity for Life I",
+          "credits": 3,
+          "section": "A",
+          "days": [
+            "Fri"
+          ],
+          "start": "09:00",
+          "end": "12:00",
+          "professor": "Dr. Mina Kapoor",
+          "professorRating": 4.8,
+          "difficulty": 2,
+          "estimatedWorkloadHours": 5,
+          "workloadRisk": "low",
+          "graduationRequirement": false,
+          "score": 93.9,
+          "scoreBreakdown": {
+            "graduation_progress": 10.0,
+            "professor_rating": 38.4,
+            "difficulty_fit": 32.0,
+            "workload_fit": 13.5
+          },
+          "reasons": [
+            "useful elective or supporting course",
+            "Dr. Mina Kapoor mock rating 4.8/5",
+            "low workload and lower difficulty"
+          ]
+        }
+      ],
+      "totalCredits": 9,
+      "weeklyWorkloadHours": 20,
+      "averageProfessorRating": 4.67,
+      "workloadRisk": "low",
+      "rationale": "Selected 3 course(s) within the 22-hour easy workload cap, including 2 declared requirement course(s).",
+      "constraints": {
+        "maxCourses": 3,
+        "maxWeeklyWorkloadHours": 22
+      }
+    },
+    {
+      "mode": "balanced",
+      "title": "Balanced Plan",
+      "courses": [
+        {
+          "code": "KINE 3000",
+          "title": "Psychology of Physical Activity and Health",
+          "credits": 3,
+          "section": "A",
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "start": "13:00",
+          "end": "14:30",
+          "professor": "Dr. Mina Kapoor",
+          "professorRating": 4.8,
+          "difficulty": 3,
+          "estimatedWorkloadHours": 7,
+          "workloadRisk": "medium",
+          "graduationRequirement": true,
+          "score": 124.4,
+          "scoreBreakdown": {
+            "graduation_progress": 45.0,
+            "professor_rating": 38.4,
+            "difficulty_fit": 30.0,
+            "workload_fit": 11.0
+          },
+          "reasons": [
+            "counts toward declared requirements",
+            "Dr. Mina Kapoor mock rating 4.8/5",
+            "moderate workload with steady requirement progress"
+          ]
+        },
+        {
+          "code": "KINE 2049",
+          "title": "Research Methods in Kinesiology",
+          "credits": 3,
+          "section": "A",
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "start": "14:30",
+          "end": "16:00",
+          "professor": "Dr. Celeste Morgan",
+          "professorRating": 4.4,
+          "difficulty": 3,
+          "estimatedWorkloadHours": 8,
+          "workloadRisk": "medium",
+          "graduationRequirement": true,
+          "score": 122.2,
+          "scoreBreakdown": {
+            "graduation_progress": 45.0,
+            "professor_rating": 35.2,
+            "difficulty_fit": 30.0,
+            "workload_fit": 12.0
+          },
+          "reasons": [
+            "counts toward declared requirements",
+            "Dr. Celeste Morgan mock rating 4.4/5",
+            "moderate workload with steady requirement progress"
+          ]
+        },
+        {
+          "code": "KINE 2011",
+          "title": "Human Physiology I",
+          "credits": 3,
+          "section": "A",
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "start": "09:00",
+          "end": "10:30",
+          "professor": "Dr. Avery Riddell",
+          "professorRating": 4.6,
+          "difficulty": 4,
+          "estimatedWorkloadHours": 11,
+          "workloadRisk": "high",
+          "graduationRequirement": true,
+          "score": 115.8,
+          "scoreBreakdown": {
+            "graduation_progress": 45.0,
+            "professor_rating": 36.8,
+            "difficulty_fit": 25.0,
+            "workload_fit": 9.0
+          },
+          "reasons": [
+            "counts toward declared requirements",
+            "Dr. Avery Riddell mock rating 4.6/5",
+            "moderate workload with steady requirement progress"
+          ]
+        },
+        {
+          "code": "KINE 1900",
+          "title": "Integrated Physical Activity for Life I",
+          "credits": 3,
+          "section": "A",
+          "days": [
+            "Fri"
+          ],
+          "start": "09:00",
+          "end": "12:00",
+          "professor": "Dr. Mina Kapoor",
+          "professorRating": 4.8,
+          "difficulty": 2,
+          "estimatedWorkloadHours": 5,
+          "workloadRisk": "low",
+          "graduationRequirement": false,
+          "score": 82.4,
+          "scoreBreakdown": {
+            "graduation_progress": 10.0,
+            "professor_rating": 38.4,
+            "difficulty_fit": 25.0,
+            "workload_fit": 9.0
+          },
+          "reasons": [
+            "useful elective or supporting course",
+            "Dr. Mina Kapoor mock rating 4.8/5",
+            "moderate workload with steady requirement progress"
+          ]
+        }
+      ],
+      "totalCredits": 12,
+      "weeklyWorkloadHours": 31,
+      "averageProfessorRating": 4.65,
+      "workloadRisk": "medium",
+      "rationale": "Selected 4 course(s) within the 34-hour balanced workload cap, including 3 declared requirement course(s).",
+      "constraints": {
+        "maxCourses": 4,
+        "maxWeeklyWorkloadHours": 34
+      }
+    },
+    {
+      "mode": "hard",
+      "title": "Hard Plan",
+      "courses": [
+        {
+          "code": "KINE 2011",
+          "title": "Human Physiology I",
+          "credits": 3,
+          "section": "A",
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "start": "09:00",
+          "end": "10:30",
+          "professor": "Dr. Avery Riddell",
+          "professorRating": 4.6,
+          "difficulty": 4,
+          "estimatedWorkloadHours": 11,
+          "workloadRisk": "high",
+          "graduationRequirement": true,
+          "score": 121.5,
+          "scoreBreakdown": {
+            "graduation_progress": 45.0,
+            "professor_rating": 36.8,
+            "difficulty_fit": 32.0,
+            "workload_fit": 7.7
+          },
+          "reasons": [
+            "counts toward declared requirements",
+            "Dr. Avery Riddell mock rating 4.6/5",
+            "ambitious course load and stronger technical stretch"
+          ]
+        },
+        {
+          "code": "KINE 2031",
+          "title": "Human Anatomy",
+          "credits": 3,
+          "section": "A",
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "start": "10:30",
+          "end": "12:00",
+          "professor": "Dr. Nadia Brooks",
+          "professorRating": 4.5,
+          "difficulty": 4,
+          "estimatedWorkloadHours": 11,
+          "workloadRisk": "high",
+          "graduationRequirement": true,
+          "score": 120.7,
+          "scoreBreakdown": {
+            "graduation_progress": 45.0,
+            "professor_rating": 36.0,
+            "difficulty_fit": 32.0,
+            "workload_fit": 7.7
+          },
+          "reasons": [
+            "counts toward declared requirements",
+            "Dr. Nadia Brooks mock rating 4.5/5",
+            "ambitious course load and stronger technical stretch"
+          ]
+        },
+        {
+          "code": "KINE 3000",
+          "title": "Psychology of Physical Activity and Health",
+          "credits": 3,
+          "section": "A",
+          "days": [
+            "Tue",
+            "Thu"
+          ],
+          "start": "13:00",
+          "end": "14:30",
+          "professor": "Dr. Mina Kapoor",
+          "professorRating": 4.8,
+          "difficulty": 3,
+          "estimatedWorkloadHours": 7,
+          "workloadRisk": "medium",
+          "graduationRequirement": true,
+          "score": 112.3,
+          "scoreBreakdown": {
+            "graduation_progress": 45.0,
+            "professor_rating": 38.4,
+            "difficulty_fit": 24.0,
+            "workload_fit": 4.9
+          },
+          "reasons": [
+            "counts toward declared requirements",
+            "Dr. Mina Kapoor mock rating 4.8/5",
+            "ambitious course load and stronger technical stretch"
+          ]
+        },
+        {
+          "code": "KINE 2049",
+          "title": "Research Methods in Kinesiology",
+          "credits": 3,
+          "section": "A",
+          "days": [
+            "Mon",
+            "Wed"
+          ],
+          "start": "14:30",
+          "end": "16:00",
+          "professor": "Dr. Celeste Morgan",
+          "professorRating": 4.4,
+          "difficulty": 3,
+          "estimatedWorkloadHours": 8,
+          "workloadRisk": "medium",
+          "graduationRequirement": true,
+          "score": 109.8,
+          "scoreBreakdown": {
+            "graduation_progress": 45.0,
+            "professor_rating": 35.2,
+            "difficulty_fit": 24.0,
+            "workload_fit": 5.6
+          },
+          "reasons": [
+            "counts toward declared requirements",
+            "Dr. Celeste Morgan mock rating 4.4/5",
+            "ambitious course load and stronger technical stretch"
+          ]
+        },
+        {
+          "code": "KINE 1900",
+          "title": "Integrated Physical Activity for Life I",
+          "credits": 3,
+          "section": "A",
+          "days": [
+            "Fri"
+          ],
+          "start": "09:00",
+          "end": "12:00",
+          "professor": "Dr. Mina Kapoor",
+          "professorRating": 4.8,
+          "difficulty": 2,
+          "estimatedWorkloadHours": 5,
+          "workloadRisk": "low",
+          "graduationRequirement": false,
+          "score": 67.9,
+          "scoreBreakdown": {
+            "graduation_progress": 10.0,
+            "professor_rating": 38.4,
+            "difficulty_fit": 16.0,
+            "workload_fit": 3.5
+          },
+          "reasons": [
+            "useful elective or supporting course",
+            "Dr. Mina Kapoor mock rating 4.8/5",
+            "ambitious course load and stronger technical stretch"
+          ]
+        }
+      ],
+      "totalCredits": 15,
+      "weeklyWorkloadHours": 42,
+      "averageProfessorRating": 4.62,
+      "workloadRisk": "high",
+      "rationale": "Selected 5 course(s) within the 48-hour hard workload cap, including 4 declared requirement course(s).",
+      "constraints": {
+        "maxCourses": 5,
+        "maxWeeklyWorkloadHours": 48
+      }
+    }
+  ],
+  "agentWorkflow": [
+    {
+      "tool": "profile_parser",
+      "result": "normalized student input"
+    },
+    {
+      "tool": "mock_course_catalog",
+      "result": "loaded 12 York Kinesiology and Health Science courses"
+    },
+    {
+      "tool": "prerequisite_checker",
+      "result": "filtered courses missing prerequisites"
+    },
+    {
+      "tool": "schedule_solver",
+      "result": "removed sections outside availability and with conflicts"
+    },
+    {
+      "tool": "ranking_engine",
+      "result": "scored plans for easy, balanced, and hard modes"
+    }
+  ],
+  "excludedCourses": [
+    {
+      "code": "KINE 1000",
+      "title": "Sociocultural Perspectives in Kinesiology",
+      "reason": "already completed"
+    },
+    {
+      "code": "KINE 1020",
+      "title": "Fitness and Health",
+      "reason": "already completed"
+    },
+    {
+      "code": "KINE 2050",
+      "title": "Analysis of Data in Kinesiology",
+      "reason": "missing prerequisite group(s): KINE 2049"
+    },
+    {
+      "code": "KINE 3012",
+      "title": "Human Physiology II",
+      "reason": "missing prerequisite group(s): KINE 2011"
+    },
+    {
+      "code": "KINE 3020",
+      "title": "Skilled Performance and Motor Learning",
+      "reason": "missing prerequisite group(s): KINE 2011 or KINE 2031"
+    },
+    {
+      "code": "KINE 3030",
+      "title": "Biomechanics of Human Movement",
+      "reason": "missing prerequisite group(s): KINE 2011 or KINE 2031"
+    },
+    {
+      "code": "KINE 4010",
+      "title": "Exercise Physiology",
+      "reason": "missing prerequisite group(s): KINE 3012"
+    }
+  ]
+}

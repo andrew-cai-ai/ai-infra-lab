@@ -1,0 +1,81 @@
+{
+  "schema_version": "arp.trace.v1",
+  "trace_id": "trace.sample_success",
+  "agent": {
+    "id": "sample",
+    "version": "1.0.0",
+    "environment": "local"
+  },
+  "started_at": "2026-06-06T10:00:00Z",
+  "completed_at": "2026-06-06T10:00:01Z",
+  "duration_ms": 1000,
+  "status": "passed",
+  "metadata": {
+    "suite_id": "sample",
+    "case_id": "sample.task_success"
+  },
+  "spans": [
+    {
+      "span_id": "span.root",
+      "name": "sample agent run",
+      "type": "agent",
+      "started_at": "2026-06-06T10:00:00Z",
+      "completed_at": "2026-06-06T10:00:01Z",
+      "duration_ms": 1000,
+      "status": "passed",
+      "input": {
+        "prompt": "Return exactly the word ready after using the normal sample planning tools."
+      },
+      "output": {
+        "text": "ready"
+      }
+    },
+    {
+      "span_id": "span.model",
+      "parent_span_id": "span.root",
+      "name": "model completion",
+      "type": "model_call",
+      "model": "sample-model",
+      "started_at": "2026-06-06T10:00:00Z",
+      "completed_at": "2026-06-06T10:00:00Z",
+      "duration_ms": 320,
+      "status": "passed",
+      "tokens": {
+        "input": 14,
+        "output": 1,
+        "total": 15
+      },
+      "cost": {
+        "amount_usd": 0.00015
+      }
+    },
+    {
+      "span_id": "span.tool.think",
+      "parent_span_id": "span.root",
+      "name": "think",
+      "type": "tool_call",
+      "tool_name": "think",
+      "started_at": "2026-06-06T10:00:00Z",
+      "completed_at": "2026-06-06T10:00:00Z",
+      "duration_ms": 80,
+      "status": "passed",
+      "attributes": {
+        "prompt_length": 72
+      }
+    },
+    {
+      "span_id": "span.tool.finalize",
+      "parent_span_id": "span.root",
+      "name": "finalize",
+      "type": "tool_call",
+      "tool_name": "finalize",
+      "started_at": "2026-06-06T10:00:00Z",
+      "completed_at": "2026-06-06T10:00:01Z",
+      "duration_ms": 120,
+      "status": "passed",
+      "attributes": {
+        "status": "complete"
+      }
+    }
+  ]
+}

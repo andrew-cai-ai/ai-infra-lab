@@ -1,0 +1,29 @@
+{
+  "university": "York University",
+  "program": "Kinesiology and Health Science",
+  "completed_courses": [
+    "KINE 1000",
+    "KINE 1020"
+  ],
+  "required_courses": [
+    "KINE 2011",
+    "KINE 2031",
+    "KINE 2049",
+    "KINE 2050",
+    "KINE 3000",
+    "KINE 3012",
+    "KINE 3030"
+  ],
+  "preferred_schedule": {
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "earliest_start": "09:00",
+    "latest_end": "19:00"
+  },
+  "target_mode": "balanced"
+}

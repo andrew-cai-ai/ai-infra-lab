@@ -1,0 +1,8 @@
+{
+  "schema_version": "arp.eval.suite.v1",
+  "id": "sample",
+  "name": "Sample Vertical Slice",
+  "cases": [
+    "../cases/sample_task_success.json"
+  ]
+}

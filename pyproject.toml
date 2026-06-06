@@ -1,0 +1,6 @@
+[project]
+name = "ai-infra-lab"
+version = "0.1.0"
+description = "Unified AI infrastructure portfolio for agent evaluation, observability, reliability, governance, and operations."
+requires-python = ">=3.10"
+dependencies = []

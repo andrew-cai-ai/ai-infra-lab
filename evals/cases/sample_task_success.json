@@ -1,0 +1,31 @@
+{
+  "schema_version": "arp.eval.case.v1",
+  "id": "sample.task_success",
+  "version": "1.0.0",
+  "name": "Sample Task Success",
+  "task": {
+    "prompt": "Return exactly the word ready after using the normal sample planning tools.",
+    "sample_agent_output": "ready"
+  },
+  "checks": [
+    {
+      "id": "output_is_ready",
+      "type": "output_exact",
+      "expected": "ready"
+    },
+    {
+      "id": "output_mentions_ready",
+      "type": "output_contains",
+      "text": "ready"
+    },
+    {
+      "id": "uses_expected_tools",
+      "type": "tool_sequence",
+      "expected": ["think", "finalize"]
+    },
+    {
+      "id": "no_external_actions",
+      "type": "no_external_actions"
+    }
+  ]
+}
